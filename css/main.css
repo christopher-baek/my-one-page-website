@@ -95,6 +95,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* use a full, faded background for a parallax effect */
+body {
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+    background-color: ghostwhite;
+    background-blend-mode: screen;
+}
+
 /* keep the navigation bar fixed to the top and stretched across the screen */
 nav {
     position: fixed;
@@ -125,22 +133,6 @@ section {
     padding: 50px;
 }
 
-/* a pseudo-gradient of colors for the different sections */
-#home {
-    background-color: maroon;
-}
-
-#features{
-    background-color: darkred;
-}
-
-#contact {
-    background-color: firebrick;
-}
-
-#about {
-    background-color: indianred;
-}
 
 /* ==========================================================================
    Helper classes
