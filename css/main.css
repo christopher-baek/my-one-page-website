@@ -95,21 +95,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* keep the navigation bar fixed to the top and stretched across the screen */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: gray;
+}
 
+/* make the navigation links look like evenly spaced boxes with centered text */
+a.nav-bar-link {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
 
+/* - make the sections big enough that they give the feeling of separate */
+/*   pages                                                               */
+/* - give enough padding at the top to the content doesn't get covered   */
+/*   up by the nav bar                                                   */
+section {
+    height: 600px;
+    padding: 50px;
+}
 
+/* a pseudo-gradient of colors for the different sections */
+#home {
+    background-color: maroon;
+}
 
+#features{
+    background-color: darkred;
+}
 
+#contact {
+    background-color: firebrick;
+}
 
-
-
-
-
-
-
-
-
-
+#about {
+    background-color: indianred;
+}
 
 /* ==========================================================================
    Helper classes
