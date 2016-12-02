@@ -133,6 +133,12 @@ section {
     padding: 50px;
 }
 
+footer {
+    background: gray;
+    padding: 16px 50px;
+    width: 100%
+}
+
 
 /* ==========================================================================
    Helper classes
