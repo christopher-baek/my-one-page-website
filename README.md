@@ -1,2 +1,3 @@
 # my-one-page-website
-A test One Page website
+
+An example of a One Page website
